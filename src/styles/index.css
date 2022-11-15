@@ -1,0 +1,27 @@
+@import "./tokens-breakpoints.css";
+
+html {
+  accent-color: var(--color-iris);
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+}
+
+/* Start:  Temporary Styles */
+body {
+  max-width: var(--bp-xlarge);
+  margin: 0 auto;
+  padding-inline: var(--spacing-3);
+  border: 1px solid var(--color-black-11);
+  border-top: none;
+  border-bottom: none;
+}
+
+a {
+  color: var(--color-iris);
+  text-underline-offset: var(--spacing-1);
+}
+
+main {
+  margin-top: var(--spacing-4);
+}
+/* End:  Temporary Styles */

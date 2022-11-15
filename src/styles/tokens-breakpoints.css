@@ -1,0 +1,10 @@
+:root {
+  --bp-small-width: 375px;
+  --bp-medium-width: 768px;
+  --bp-large-width: 1200px;
+  --bp-xlarge-width: 1440px;
+}
+@custom-media --bp-small (min-width: 375px);
+@custom-media --bp-medium (min-width: 768px);
+@custom-media --bp-large (min-width: 1200px);
+@custom-media --bp-xlarge (min-width: 1440px);
