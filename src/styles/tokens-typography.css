@@ -1,0 +1,17 @@
+:root {
+  --font-family-black: "GHDModeratBlack", Arial, Helvetica, sans-serif;
+  --font-family-regular: "GHDModeratRegular", Arial, Helvetica, sans-serif;
+  --font-family-light: "GHDModeratLight", Arial, Helvetica, sans-serif;
+  --font-weight-black: 900;
+  --font-weight-regular: 400;
+  --font-weight-light: 300;
+
+  --font-size-1: 0.56rem;
+  --font-size-2: 0.75rem;
+  --font-size-3: 1rem;
+  --font-size-4: 1.333rem;
+  --font-size-5: 1.777rem;
+  --font-size-6: 2.369rem;
+  --font-size-7: 3.157rem;
+  --font-size-8: 4.209rem;
+}

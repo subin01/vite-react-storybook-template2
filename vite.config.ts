@@ -7,8 +7,8 @@ export default defineConfig({
   plugins: [react()],
   build: {
     polyfillModulePreload: false,
-    // target: 'esnext',
-    // sourcemap: true,
+    target: "esnext",
+    sourcemap: true,
     minify: false,
     cssCodeSplit: false,
     emptyOutDir: true,
@@ -18,7 +18,7 @@ export default defineConfig({
         main2: resolve(__dirname, "app2.html"),
         all: resolve(__dirname, "all.html"),
         sitecore: resolve(__dirname, "sitecore.html"),
-        lib: resolve(__dirname, "/src/lib.js"),
+        ui: resolve(__dirname, "/src/ui-main.js"),
       },
       output: {
         assetFileNames: "assets/[name][extname]", // default: "assets/[name]-[hash][extname]"

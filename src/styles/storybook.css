@@ -1,0 +1,30 @@
+/*
+ StoryBook specific styles, used only for presentation purposes
+*/
+
+.token-example {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 0;
+  align-items: center;
+  gap: 1rem;
+
+  & span {
+    display: inline-block;
+    min-width: 9em;
+  }
+
+  & article {
+    background-color: #bfe5d7;
+    aspect-ratio: 1;
+  }
+}
+
+.tokens-grid-example {
+  & div {
+    background-color: hsla(0, 0%, 90%, 1);
+    min-height: 50vh;
+    padding-top: 1rem;
+    text-align: center;
+  }
+}
