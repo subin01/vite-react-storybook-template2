@@ -24,7 +24,7 @@ const Template = () => (
       Enable this behaviour by adding
       <code> class="accordions-group"</code> to the container div
     </p>
-    <div className="accordions accordions-group">
+    <div className="accordions-group">
       <Accordion title="Banking and insurance">
         <p>
           Droughts have devastating effects on crop cultivation and livestock farming, while flooding and storms can

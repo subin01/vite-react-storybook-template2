@@ -1,14 +1,17 @@
-import "../styles/index.css";
-import Logo from "../assets/logo.png";
-import Header from "../UI/Header";
+import { useState } from "react";
+import "@/styles/index.css";
+import Logo from "@/assets/logo.png";
+import Header from "@/UI/Header";
 
 export default function App1() {
+  const [count, setCount] = useState(0);
   return (
     <>
       <Header title="App1" />
       <main>
         <h1 className="h1">App 1</h1>
         <img alt="React logo" width="400px" src={Logo} />
+        <div onClick={() => setCount(count => count + 1)}>Count: {count}</div>
       </main>
     </>
   );

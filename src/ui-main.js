@@ -1,5 +1,6 @@
 import "./styles/index.css";
 import "./UI/Header/styles.scss";
+import "./UI/Button/styles.scss";
 import "./UI/Card/styles.scss";
 import "./UI/Accordion/styles.scss";
 // import "./UI/Tag/styles.scss";
