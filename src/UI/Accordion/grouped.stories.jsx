@@ -1,4 +1,4 @@
-import { expect } from "@storybook/jest";
+// import { expect } from "@storybook/jest";
 import { userEvent, within } from "@storybook/testing-library";
 import React from "react";
 
@@ -86,18 +86,17 @@ Grouped.args = {
 };
 
 Grouped.play = async ({ canvasElement }) => {
-  accordion.init();
+  accordion.init(); // init on canvas-ready (eq of onload)
 
-  try {
-    const canvas = within(canvasElement);
-
-    // 👇 Simulate interactions with the component
-    await userEvent.click(canvas.getByText("test title2"));
-    await expect(canvas.getByText("test content2")).toBeInTheDocument();
-    await expect(canvas.getByText("test content1")).not.toBeVisible();
-  } catch (e) {
-    console.log(e);
-  }
+  // try {
+  //   const canvas = within(canvasElement);
+  //   // 👇 Simulate interactions with the component
+  //   await userEvent.click(canvas.getByText("test title2"));
+  //   await expect(canvas.getByText("test content2")).toBeInTheDocument();
+  //   await expect(canvas.getByText("test content1")).not.toBeVisible();
+  // } catch (e) {
+  //   console.log(e);
+  // }
 };
 
 Grouped.parameters = {

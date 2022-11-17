@@ -1,7 +1,7 @@
 import { Card } from ".";
 import card from "./scripts";
 // import {Card, init} from './Card';
-import Button from "@/UI/Button";
+import { Button } from "../../stories/Button";
 
 export default {
   title: "UI/Card",
