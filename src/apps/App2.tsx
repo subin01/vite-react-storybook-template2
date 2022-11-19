@@ -12,7 +12,7 @@ export default function App2() {
       <main>
         <h1 className="h2">App 2</h1>
         <img alt="React logo" width="400px" src={Logo} />
-        <div onClick={() => setCount(count => count + 1)}>Count: {count}</div>
+        <button onClick={() => setCount(count => count + 1)}>Count: {count}</button>
       </main>
     </>
   );

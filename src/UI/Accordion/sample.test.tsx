@@ -28,7 +28,9 @@ describe("Accordion", async () => {
     render(
       <div className="accordion-group">
         {mockData.map(i => (
-          <Accordion title={i.title}>{i.content}</Accordion>
+          <Accordion key={i.title} title={i.title}>
+            {i.content}
+          </Accordion>
         ))}
       </div>
     );

@@ -11,7 +11,7 @@ export default function App1() {
       <main>
         <h1 className="h1">App 1</h1>
         <img alt="React logo" width="400px" src={Logo} />
-        <div onClick={() => setCount(count => count + 1)}>Count: {count}</div>
+        <button onClick={() => setCount(count => count + 1)}>Count: {count}</button>
       </main>
     </>
   );

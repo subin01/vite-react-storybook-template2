@@ -1,4 +1,4 @@
-import { assert, describe, it, expect } from "vitest";
+import { describe, it, expect } from "vitest";
 import sum from "./sample";
 
 describe("Simple working test", () => {
