@@ -1,0 +1,2 @@
+const l={handleToggle:e=>{e.preventDefault();let o=e.target.closest("details"),r=e.target.closest(".accordions-group").querySelectorAll("details");Array.prototype.forEach.call(r,t=>{t.open=!1}),o.open=!0},init:()=>{const e=document.querySelectorAll(".accordions-group summary");Array.prototype.forEach.call(e,o=>{o.onclick=l.handleToggle})}};export{l as d};
+//# sourceMappingURL=scripts.c3db8e50.js.map
